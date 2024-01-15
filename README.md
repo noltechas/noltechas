@@ -27,3 +27,36 @@ Projects in this repository were built both in a university setting and by mysel
     <img src="icons/intellij.svg" alt="Java" width="40" height="40" title="IntelliJ">
     <img src="icons/vscode.svg" alt="Java" width="40" height="40" title="VSCode">
 </p>
+
+---------
+
+## 🚀 Projects
+
+### [Swim Stroke Analyzer](https://github.com/noltechas/SwimAI)
+_For my final project in my Advanced Artificial Intelligence class, I decided to create
+a project that analyzes a swimmer's stroke technique. As a collegiate swimmer, the idea
+of this project was very interesting to me, as it applied to a sport that I was
+competing in and practicing many hours a day. The final project used machine learning algorithms 
+built with Keras and Tensorflow to successfully detect the location of the swimmer's
+hands and feet throughout a given video. From there, the program measured the symmetry of the
+swimmer's features to give accurate feedback to how well the swimmer was performing
+their stroke._
+
+<p align="center">
+<img src="icons/output_video.gif" alt="Java" height="250" title="NodeJS" >
+</p>
+
+_Code snippets or key features_
+
+---
+
+### Project 2 Title [→](LINK_TO_PROJECT_2)
+_Description of Project 2_
+
+![Project 2 Image](URL_TO_PROJECT_2_IMAGE)
+
+_Code snippets or key features_
+
+---
+
+<!-- Repeat for more projects -->
