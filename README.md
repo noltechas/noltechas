@@ -44,7 +44,7 @@ swimmer's features to give accurate feedback to how well the swimmer was perform
 their stroke._
 
 <div style="text-align: center;">
-  <img src="icons/output_video.gif" alt="Description" height="275">
+  <img src="icons/output_video.gif" alt="Description" width="175">
 </div>
 
 _Code snippets or key features_
