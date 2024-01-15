@@ -33,6 +33,7 @@ Projects in this repository were built both in a university setting and by mysel
 ## 🚀 Projects
 
 ### [Swim Stroke Analyzer](https://github.com/noltechas/SwimAI)
+#### Completed December 2023
 _For my final project in my Advanced Artificial Intelligence class, I decided to create
 a project that analyzes a swimmer's stroke technique. As a collegiate swimmer, the idea
 of this project was very interesting to me, as it applied to a sport that I was
@@ -42,9 +43,9 @@ hands and feet throughout a given video. From there, the program measured the sy
 swimmer's features to give accurate feedback to how well the swimmer was performing
 their stroke._
 
-<p align="center">
-<img src="icons/output_video.gif" alt="Java" height="250" title="NodeJS" >
-</p>
+<div style="text-align: center;">
+  <img src="icons/output_video.gif" alt="Description" height="275">
+</div>
 
 _Code snippets or key features_
 
