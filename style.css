@@ -1,0 +1,138 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#starCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #02075d; /* Dark navy blue */
+    z-index: -1; /* Puts the canvas behind other content */
+}
+
+header {
+    position: relative;
+    z-index: 10; /* Ensure the header is above the canvas */
+    color: white; /* Adjust as per your design */
+    text-align: center;
+}
+
+/* ... rest of your styles ... */
+
+#projects img {
+    width: 175px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Swiper */
+.swiper-container {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.scrolling-wrapper {
+    white-space: nowrap;
+}
+
+.scrolling-content {
+    display: flex; /* Changed to flex for better alignment */
+    animation: scroll-horizontal 20s linear infinite;
+}
+
+@keyframes scroll-horizontal {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.scrolling-content img {
+    vertical-align: middle;
+    width: 60px; /* Larger size */
+    height: 60px;
+    margin: 10px;
+}
+
+.icon-container {
+    z-index: 1000;
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    vertical-align: top; /* Align to the top to prevent baseline alignment issues */
+}
+
+.icon-container img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.icon-container:hover img {
+    transform: scale(1.2);
+}
+
+.icon-description {
+    display: none;
+    position: absolute;
+    bottom: -60px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: max-content;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Optional: Adds a shadow for better visibility */
+    z-index: 999; /* Make sure it's above other content */
+}
+
+.icon-container:hover .icon-description {
+    display: block;
+}
+
+#custom-header {
+    position: relative;
+    text-align: center;
+}
+
+#header-text {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Additional styles to match the look of your uploaded image */
+}
+
+#header-text h1 {
+    font-family: 'Your Font Name', sans-serif; /* Replace with your font */
+    font-size: 3em; /* Adjust size as needed */
+    color: #dddddd; /* Color for your name */
+}
+
+#header-text p {
+    font-family: 'Your Font Name', sans-serif; /* Replace with your font */
+    font-size: 1.5em; /* Adjust size as needed */
+    color: #dddddd; /* Color for 'Software Developer' */
+}
+
