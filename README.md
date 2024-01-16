@@ -65,8 +65,8 @@ Sleeper Fantasy Football API, I was able to create a program that instantly
 calculated the standings for all the leagues and grouped the teams together._
 
 <div style="text-align: center;">
-  <img src="icons/sc1.png" alt="League Standings" width="175">
-  <img src="icons/sc2.png" alt="League Standings" width="117.5">
+  <img src="icons/sc1.png" alt="League Standings" width="175*2">
+  <img src="icons/sc2.png" alt="League Standings" width="117.5*2">
 </div>
 
 _The screenshot example on the left shows the standings for an individual league.
