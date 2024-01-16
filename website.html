@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chas Nolte - Fullstack Developer</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .background {
+            background-color: #A9A9A9;
+            height: 200vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        .layer {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .layer1 {
+            background: radial-gradient(circle, black 2px, transparent 2px),
+            radial-gradient(circle, black 2px, transparent 2px) 50px 50px;
+            background-size: 100px 100px;
+        }
+        .layer2 {
+            background: conic-gradient(from 90deg at 50% 50%, black 0deg 120deg, transparent 0deg);
+            background-size: 50px 50px;
+        }
+        .layer3 {
+            background: linear-gradient(90deg, black 50%, transparent 50%),
+            linear-gradient(black 50%, transparent 50%);
+            background-size: 50px 50px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="background">
+    <div class="layer layer1"></div>
+    <!-- Other layers here -->
+    <div style="position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);">
+        <h1 style="text-align: center; color: white;">Chas Nolte</h1>
+        <p style="text-align: center; color: white;">Fullstack Developer</p>
+    </div>
+</div>
+
+<script>
+    // JavaScript to move the layers at different speeds
+    window.addEventListener('scroll', function() {
+        var scrollPosition = window.pageYOffset;
+        var layer1 = document.querySelector('.layer1');
+        var layer2 = document.querySelector('.layer2');
+        var layer3 = document.querySelector('.layer3');
+
+        layer1.style.transform = 'translateY(' + scrollPosition * 0.5 + 'px)';
+        layer2.style.transform = 'translateY(' + scrollPosition * 0.3 + 'px)';
+        layer3.style.transform = 'translateY(' + scrollPosition * 0.7 + 'px)';
+    });
+</script>
+
+</body>
+</html>
