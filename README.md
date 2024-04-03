@@ -18,6 +18,7 @@ Projects in this repository were built both in a university setting and by mysel
     <img src="icons/csharp.svg" alt="C#" width="40" height="40" title="C#">
     <img src="icons/tf.svg" alt="Tensorflow" width="40" height="40" title="Tensorflow">
     <img src="icons/javascript.svg" alt="JavaScript" width="40" height="40" title="JavaScript">
+    <img src="icons/azure.png" alt="Azure" width="40" height="40" title="Azure">
     <img src="icons/git.svg" alt="Git" width="40" height="40" title="Git">
     <img src="icons/html.svg" alt="HTML" width="40" height="40" title="HTML5">
     <img src="icons/css.svg" alt="CSS" width="40" height="40" title="CSS3">
@@ -25,7 +26,8 @@ Projects in this repository were built both in a university setting and by mysel
     <img src="icons/docker.svg" alt="Docker" width="40" height="40" title="Docker">
     <img src="icons/maven.png" alt="Maven" width="40" height="40" title="Maven">
     <img src="icons/intellij.svg" alt="IntelliJ" width="40" height="40" title="IntelliJ">
-    <img src="icons/vscode.svg" alt="VSCode" width="40" height="40" title="VSCode">
+    <img src="icons/vscode.svg" alt="Visual Studio" width="40" height="40" title="Visual Studio">
+<img src="icons/visual-studio-code-icon.png" alt="VS Code" width="40" height="40" title="VS Code">
 </p>
 
 ---------
@@ -55,26 +57,8 @@ to measure symmetry throughout the entire video._
 
 ---
 
-### [Fantasy Football Leaderboard](https://github.com/noltechas/FantasyFootballGUI)
-#### Completed September 2023
-_This was a personal project used to help manage and share standings for 
-a fantasy football league this past season. The league consisted of 128 teams,
-spread out through 8 different individual leagues. Other multi-league fantasy
-contests often rely on manual standings calculations. However, by using the
-Sleeper Fantasy Football API, I was able to create a program that instantly 
-calculated the standings for all the leagues and grouped the teams together._
-
-<div style="text-align: center;">
-  <img src="icons/sc1.png" alt="League Standings" width="400">
-  <img src="icons/sc2.png" alt="League Standings" width="268.6">
-</div>
-
-_The screenshot example on the left shows the standings for an individual league.
-The leagues were split up into two divisions, each shown on the left and right side.
-The screenshot example on the right shows the right-half of the playoff bracket. This was
-calculated using combined teams from all 8 leagues, with the top 24 teams making the playoffs.
-The screenshots were generated automatically by the program and required no additional
-input from me._
+### [College Football Score and Victory Predictor](https://github.com/noltechas/CapstoneFPI)
+#### Completed May 2024
 
 ---
 
