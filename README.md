@@ -45,9 +45,9 @@ hands and feet throughout a given video. From there, the program measured the sy
 swimmer's features to give accurate feedback to how well the swimmer was performing
 their stroke.
 
-<div style="text-align: center;">
+<p align="center">
   <img src="icons/output_video.gif" alt="Description" width="175">
-</div>
+</p>
 
 _The example above shows the neural network's detections of the swimmer's body, as well as the detections
 for both their hands and feet. The software then connects the center of the hand and foot bounding
@@ -72,10 +72,10 @@ I developed a website to display the model's predictions on all games throughout
 Users on the website can see the model's predictions on each game, and then click on each game block to see if the model was correct
 or incorrect on its predictions. The below images show examples of predictions during a given week, and their correctness.
 
-<div style="text-align: center;">
-  <img src="icons/Before.png" alt="Predictions" width="350">
-  <img src="icons/After.png" alt="Correctness" width="350">
-</div>
+<p align="center">
+  <img src="icons/Before.png" alt="Predictions" width="750">
+  <img src="icons/After.png" alt="Correctness" width="750">
+</p>
 
 Early in the fall when depth charts are released, the website will be updated weekly to display its predictions for the upcoming games.
 
