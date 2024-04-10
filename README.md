@@ -83,8 +83,8 @@ to measure symmetry throughout the entire video._
 
 ### [Football Play Simulator](https://github.com/noltechas/FootballSim)
 ###### Completed December 2023
-In my free time during winter break 2023, I developed a personal project that simulates can simulate football
-plays and even a full football game. The user is able to set the offensive and team's playbooks, which includes 
+In my free time during winter break 2023, I developed a personal project that simulates football
+plays and can string them together into a full football game. The user is able to set the offensive and team's playbooks, which includes 
 different formation sets, each with their own set of plays. From there, a team roster can be randomly generated (or with player
 attribute values set manually). Each player has a unique full name, and a set number and position. Based on their position, they will
 have 5 skill attributes, ranging from a value from 50 to 99. These values will affect their ability on the field. Once rosters are fully
@@ -92,14 +92,14 @@ created, users can choose home and away team colors and logos to create a unique
 examples of specific plays played at different locations to give a full overview of the application's potential.
 
 <p align="center">
-  <img src="icons/Play1.gif" alt="Description" width="175">
-  <img src="icons/Play2.gif" alt="Description" width="175">
+  <img src="icons/output-onlinegiftools.gif" alt="Description" width="175">
+  <img src="icons/output-onlinegiftools-2.gif" alt="Description" width="175">
 </p>
 
 Here is an example of a full drive simulated by the application:
 
 <p align="center">
-  <img src="icons/Play3.gif" alt="Description" width="200">
+  <img src="icons/output-onlinegiftools-3.gif" alt="Description" width="200">
 </p>
 
 <!-- Repeat for more projects -->
