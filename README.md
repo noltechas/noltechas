@@ -92,15 +92,13 @@ created, users can choose home and away team colors and logos to create a unique
 examples of specific plays played at different locations to give a full overview of the application's potential.
 
 <p align="center">
-  <img src="icons/Clip1.gif" alt="Play One" width="200">
-  <img src="icons/Clip2.gif" alt="Play Two" width="200">
-  <img src="icons/Clip3.gif" alt="Play Three" width="200">
+  <video width="320" height="240" controls>
+    <source src="icons/Clip1.mov" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </p>
+
 
 Here is an example of a full drive simulated by the application:
-
-<p align="center">
-  <img src="icons/ClipFULL.gif" alt="Full Drive" width="300">
-</p>
 
 <!-- Repeat for more projects -->
