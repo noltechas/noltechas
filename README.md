@@ -91,28 +91,13 @@ have 5 skill attributes, ranging from a value from 50 to 99. These values will a
 created, users can choose home and away team colors and logos to create a unique experience for each game. Below are
 examples of specific plays played at different locations to give a full overview of the application's potential.
 
-<p align="center">
-  <video width="320" height="240" controls>
-    <source src=https://github.com/noltechas/noltechas/assets/67934694/38f90c93-02c2-45c0-b14e-2fa19ab27eee type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <video width="320" height="240" controls>
-    <source src="icons/Clip2.mov" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <video width="320" height="240" controls>
-    <source src="icons/Clip3.mov" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
+![Play One](icons/Clip1.mov)
+![Play Two](icons/Clip2.mov)
+![Play Three](icons/Clip3.mov)
 
 Here is an example of a full drive simulated by the application:
 
-<p align="center">
-  <video width="320" height="240" controls>
-    <source src="icons/ClipFULL.mov" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
+![Full Drive Simulation](icons/ClipFULL.mov)
+
 
 <!-- Repeat for more projects -->
