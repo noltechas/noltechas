@@ -92,14 +92,14 @@ created, users can choose home and away team colors and logos to create a unique
 examples of specific plays played at different locations to give a full overview of the application's potential.
 
 <p align="center">
-  <img src="icons/output-onlinegiftools.gif" alt="Description" width="175">
-  <img src="icons/output-onlinegiftools-2.gif" alt="Description" width="175">
+  <img src="icons/output-onlinegiftools.gif" alt="Description" width="400">
+  <img src="icons/output-onlinegiftools-2.gif" alt="Description" width="400">
 </p>
 
 Here is an example of a full drive simulated by the application:
 
 <p align="center">
-  <img src="icons/output-onlinegiftools-3.gif" alt="Description" width="200">
+  <img src="icons/output-onlinegiftools-3.gif" alt="Description" width="600">
 </p>
 
 <!-- Repeat for more projects -->
