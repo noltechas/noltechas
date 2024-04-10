@@ -91,11 +91,15 @@ have 5 skill attributes, ranging from a value from 50 to 99. These values will a
 created, users can choose home and away team colors and logos to create a unique experience for each game. Below are
 examples of specific plays played at different locations to give a full overview of the application's potential.
 
-![Play One](https://github.com/noltechas/FootballSim/assets/67934694/2b1cbc1c-5b2c-44b2-ab01-159b8bf82386)
-![Play Two](https://github.com/noltechas/FootballSim/assets/67934694/0f9155b4-461e-4440-995a-1037373bd2c0)
+<p align="center">
+  <img src="icons/Play1.gif" alt="Description" width="175">
+  <img src="icons/Play2.gif" alt="Description" width="175">
+</p>
 
 Here is an example of a full drive simulated by the application:
 
-![Full Drive](https://github.com/noltechas/FootballSim/assets/67934694/9e7fabda-28d5-42e1-a13c-7a3be8fee338)
+<p align="center">
+  <img src="icons/Play3.gif" alt="Description" width="200">
+</p>
 
 <!-- Repeat for more projects -->
