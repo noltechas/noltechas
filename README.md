@@ -96,9 +96,23 @@ examples of specific plays played at different locations to give a full overview
     <source src=https://github.com/noltechas/noltechas/assets/67934694/38f90c93-02c2-45c0-b14e-2fa19ab27eee type="video/mp4">
     Your browser does not support the video tag.
   </video>
+  <video width="320" height="240" controls>
+    <source src="icons/Clip2.mov" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video width="320" height="240" controls>
+    <source src="icons/Clip3.mov" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </p>
 
-
 Here is an example of a full drive simulated by the application:
+
+<p align="center">
+  <video width="320" height="240" controls>
+    <source src="icons/ClipFULL.mov" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 <!-- Repeat for more projects -->
