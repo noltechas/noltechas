@@ -79,5 +79,28 @@ or incorrect on its predictions. The below images show examples of predictions d
 
 Early in the fall when depth charts are released, the website will be updated weekly to display its predictions for the upcoming games.
 
+---
+
+### [Football Play Simulator](https://github.com/noltechas/FootballSim)
+###### Completed December 2023
+In my free time during winter break 2023, I developed a personal project that simulates can simulate football
+plays and even a full football game. The user is able to set the offensive and team's playbooks, which includes 
+different formation sets, each with their own set of plays. From there, a team roster can be randomly generated (or with player
+attribute values set manually). Each player has a unique full name, and a set number and position. Based on their position, they will
+have 5 skill attributes, ranging from a value from 50 to 99. These values will affect their ability on the field. Once rosters are fully
+created, users can choose home and away team colors and logos to create a unique experience for each game. Below are
+examples of specific plays played at different locations to give a full overview of the application's potential.
+
+<p align="center">
+  <img src="icons/Clip1.gif" alt="Play One" width="200">
+  <img src="icons/Clip2.gif" alt="Play Two" width="200">
+  <img src="icons/Clip3.gif" alt="Play Three" width="200">
+</p>
+
+Here is an example of a full drive simulated by the application:
+
+<p align="center">
+  <img src="icons/ClipFULL.gif" alt="Full Drive" width="300">
+</p>
 
 <!-- Repeat for more projects -->
