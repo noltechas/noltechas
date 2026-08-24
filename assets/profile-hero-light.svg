@@ -1,54 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title desc">
   <title id="title">Chas Nolte — software developer</title>
-  <desc id="desc">Light editorial banner describing Chas Nolte as a software developer working across product engineering, applied AI, and systems design.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f8fafc"/>
-      <stop offset="0.55" stop-color="#f1f5f9"/>
-      <stop offset="1" stop-color="#eaf1f8"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0369a1"/>
-      <stop offset="1" stop-color="#1d4ed8"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#0f172a" stroke-opacity=".055" stroke-width="1"/>
-    </pattern>
-  </defs>
+  <desc id="desc">Minimal light banner for Chas Nolte, software developer working in product engineering, applied AI, and cloud systems.</desc>
 
-  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1278" height="358" rx="23" fill="none" stroke="#cbd5e1"/>
-  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
-
-  <g fill="none" stroke="#0284c7" stroke-opacity=".18">
-    <path d="M835 48C955 11 1094 46 1162 139s33 166-28 190"/>
-    <path d="M902 20c74 63 107 140 84 229-13 48-38 81-73 99"/>
-    <path d="M823 299c100-19 150-73 151-160"/>
-  </g>
-  <g fill="#0284c7">
-    <circle cx="835" cy="48" r="3"/>
-    <circle cx="1162" cy="139" r="3"/>
-    <circle cx="1134" cy="329" r="3"/>
-    <circle cx="974" cy="139" r="4"/>
-    <circle cx="823" cy="299" r="3"/>
-  </g>
+  <rect width="1280" height="300" rx="18" fill="#ffffff"/>
+  <rect x="1" y="1" width="1278" height="298" rx="17" fill="none" stroke="#d0d7de"/>
+  <rect x="64" y="54" width="4" height="192" rx="2" fill="#0969da"/>
 
   <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <text x="72" y="70" fill="#0369a1" font-size="15" font-weight="700" letter-spacing="4">CN / SOFTWARE ENGINEERING</text>
-    <text x="68" y="176" fill="#0f172a" font-size="76" font-weight="760" letter-spacing="-2">Chas Nolte</text>
-    <text x="72" y="226" fill="#475569" font-size="23" font-weight="450">I turn complex systems into useful, durable products.</text>
-
-    <g font-size="14" font-weight="650" letter-spacing="1.4">
-      <rect x="72" y="270" width="212" height="42" rx="21" fill="#e0f2fe" stroke="#0284c7" stroke-opacity=".36"/>
-      <text x="98" y="296" fill="#0c4a6e">PRODUCT ENGINEERING</text>
-      <rect x="300" y="270" width="164" height="42" rx="21" fill="#e0f2fe" stroke="#0284c7" stroke-opacity=".36"/>
-      <text x="329" y="296" fill="#0c4a6e">APPLIED AI</text>
-      <rect x="480" y="270" width="186" height="42" rx="21" fill="#e0f2fe" stroke="#0284c7" stroke-opacity=".36"/>
-      <text x="507" y="296" fill="#0c4a6e">SYSTEMS DESIGN</text>
-    </g>
-
-    <text x="1199" y="68" fill="#64748b" font-size="13" text-anchor="end" letter-spacing="2">OMAHA / 41.2565° N</text>
-    <text x="1199" y="294" fill="url(#accent)" font-size="44" font-weight="750" text-anchor="end">BUILD → TEST → SHIP</text>
-    <text x="1199" y="321" fill="#64748b" font-size="13" text-anchor="end" letter-spacing="2.2">WEB · MOBILE · DESKTOP · CLOUD</text>
+    <text x="102" y="92" fill="#57606a" font-size="16" font-weight="650" letter-spacing="3.2">SOFTWARE DEVELOPER</text>
+    <text x="96" y="178" fill="#1f2328" font-size="72" font-weight="730" letter-spacing="-1.8">Chas Nolte</text>
+    <text x="100" y="228" fill="#57606a" font-size="20" font-weight="450">Product engineering · Applied AI · Cloud systems</text>
   </g>
 </svg>
