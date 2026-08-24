@@ -4,7 +4,7 @@
   <img alt="Chas Nolte, software developer focused on product engineering, applied AI, and systems design" src="./assets/profile-hero-light.svg" width="100%">
 </picture>
 
-# Chas Nolte
+## About
 
 I build end-to-end software across web, mobile, desktop, and cloud. I hold an M.S. in Computer Science with an AI concentration, and I do my best work where product thinking, systems design, and applied machine learning meet.
 
