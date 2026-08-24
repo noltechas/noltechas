@@ -1,105 +1,82 @@
-# 🏊🏼‍♂️️ Chas Nolte
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg">
+  <img alt="Chas Nolte, software developer focused on product engineering, applied AI, and systems design" src="./assets/profile-hero-light.svg" width="100%">
+</picture>
 
-**`Software Engineer (Developer/Athlete/Creator)`**
+# Chas Nolte
 
-I am a full-stack developer currently pursuing my Masters degree in computer science 
-with a concentration in Artificial Intelligence.
-All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code.
-Projects in this repository were built both in a university setting and by myself based on my personal interests.
+I build end-to-end software across web, mobile, desktop, and cloud. I hold an M.S. in Computer Science with an AI concentration, and I do my best work where product thinking, systems design, and applied machine learning meet.
 
+[LinkedIn](https://www.linkedin.com/in/chasnolte) · [Email](mailto:noltechas@yahoo.com)
 
----
+## At a glance
 
-## 🛠️ Languages and Tools
+| Product engineering | Applied AI | Platform delivery |
+|---|---|---|
+| React, React Native, Electron | PyTorch, TensorFlow, LLM systems | AWS, Azure, Supabase |
+| Cross-platform UX | Training, inference, evaluation | APIs, data pipelines, CI/CD |
 
-<p>
-    <img src="icons/java.svg" alt="Java" width="40" height="40" title="Java">
-    <img src="icons/python.svg" alt="Python" width="40" height="40" title="Python">
-    <img src="icons/csharp.svg" alt="C#" width="40" height="40" title="C#">
-    <img src="icons/tf.svg" alt="Tensorflow" width="40" height="40" title="Tensorflow">
-    <img src="icons/javascript.svg" alt="JavaScript" width="40" height="40" title="JavaScript">
-    <img src="icons/azure.png" alt="Azure" width="40" height="40" title="Azure">
-    <img src="icons/git.svg" alt="Git" width="40" height="40" title="Git">
-    <img src="icons/html.svg" alt="HTML" width="40" height="40" title="HTML5">
-    <img src="icons/css.svg" alt="CSS" width="40" height="40" title="CSS3">
-    <img src="icons/nodejs.svg" alt="NodeJS" width="40" height="40" title="NodeJS">
-    <img src="icons/docker.svg" alt="Docker" width="40" height="40" title="Docker">
-    <img src="icons/maven.png" alt="Maven" width="40" height="40" title="Maven">
-    <img src="icons/intellij.svg" alt="IntelliJ" width="40" height="40" title="IntelliJ">
-    <img src="icons/vscode.svg" alt="Visual Studio" width="40" height="40" title="Visual Studio">
-<img src="icons/visual-studio-code-icon.png" alt="VS Code" width="40" height="40" title="VS Code">
-</p>
+## Selected engineering
 
----------
+### 01 — Dynasty+
 
-## 🚀 Projects
+`CURRENT BUILD` · `DESKTOP SYSTEMS` · `APPLIED AI`
 
-### [College Football Score and Victory Predictor](https://github.com/noltechas/CapstoneFPI)
-###### Completed May 2024
-For my graduate-level capstone project, I designed and trained a deep neural network to predict
-win probabilities and final scores for college football games. The data required for the project was stored
-in a SQL database using Microsoft Azure, and totaled nearly 200,000 entries for individual and team game statistics from college
-football games from 2013 to 2023. Once the Azure databases were completed, JavaScript functions were developed to retrieve
-and process the data, calculating advanced statistics such as Quarterback Rating, Strength of Record, and Blue-Chip ratio to name a few.
+An Electron, React, Flask, and Python companion platform that turns complex game-save data into an interactive management experience.
 
-From there, the neural network architecture was developed using Tensorflow and Keras, taking in over 2000 unique statistics for
-each game. In total, the neural network was trained on 14,204 games involving both FBS and FCS teams. The final model showed a **76% accuracy** in
-predicting games, mirroring the accuracy from Las Vegas oddsmakers. After the model was trained,
-I developed a website to display the model's predictions on all games throughout the 2023 season (taking these games out of the training dataset).
-Users on the website can see the model's predictions on each game, and then click on each game block to see if the model was correct
-or incorrect on its predictions. The below images show examples of predictions during a given week, and their correctness.
+- Reads reverse-engineered save formats and degrades cleanly when local game data is unavailable.
+- Packages two product editions from one codebase and layers persistent narrative memory, deterministic caching, and modular LLM features over the same core system.
 
-<p align="center">
-  <img src="icons/Before.png" alt="Predictions" width="750">
-  <img src="icons/After.png" alt="Correctness" width="750">
-</p>
-
-Early in the fall when depth charts are released, the website will be updated weekly to display its predictions for the upcoming games.
+*Private development; architecture walkthrough available on request.*
 
 ---
 
-### [Swim Stroke Analyzer](https://github.com/noltechas/SwimAI)
-###### Completed December 2023
-For my final project in my Advanced Artificial Intelligence class, I decided to create
-a project that analyzes a swimmer's stroke technique. As a collegiate swimmer, the idea
-of this project was very interesting to me, as it applied to a sport that I was
-competing in and practicing many hours a day. The final project used machine learning algorithms 
-built with Keras and Tensorflow to successfully detect the location of the swimmer's
-hands and feet throughout a given video. From there, the program measured the symmetry of the
-swimmer's features to give accurate feedback to how well the swimmer was performing
-their stroke.
+### 02 — [College Football Forecasting System](https://github.com/noltechas/CapstoneFPI)
 
-<p align="center">
-  <img src="icons/output_video.gif" alt="Description" width="175">
-</p>
+`GRADUATE CAPSTONE` · `MACHINE LEARNING` · `DATA ENGINEERING`
 
-_The example above shows the neural network's detections of the swimmer's body, as well as the detections
-for both their hands and feet. The software then connects the center of the hand and foot bounding
-boxes with a line, which is colored green in frames where they are symmetrical to each other, and fading
-to red the more asymmetrical they are. In the top left corner, you can see the average angle of these lines
-to measure symmetry throughout the entire video._
+A deep-learning pipeline for predicting college-football winners, win probabilities, and final scores from historical game data.
+
+- Engineered a dataset of nearly 200,000 records and more than 2,000 game-level features stored in Azure SQL.
+- Trained and evaluated models across 14,204 games, reaching 76% winner-prediction accuracy on a held-out season.
 
 ---
 
-### [Football Play Simulator](https://github.com/noltechas/FootballSim)
-###### Completed December 2023
-In my free time during winter break 2023, I developed a personal project that simulates football
-plays and can string them together into a full football game. The user is able to set the offensive and team's playbooks, which includes 
-different formation sets, each with their own set of plays. From there, a team roster can be randomly generated (or with player
-attribute values set manually). Each player has a unique full name, and a set number and position. Based on their position, they will
-have 5 skill attributes, ranging from a value from 50 to 99. These values will affect their ability on the field. Once rosters are fully
-created, users can choose home and away team colors and logos to create a unique experience for each game. Below are
-examples of specific plays played at different locations to give a full overview of the application's potential.
+### 03 — Realtime Tabletop Operations
 
-<p align="center">
-  <img src="icons/output-onlinegiftools.gif" alt="Description" width="400">
-  <img src="icons/output-onlinegiftools-2.gif" alt="Description" width="400">
-</p>
+`CURRENT BUILD` · `CROSS-PLATFORM` · `REALTIME UX`
 
-Here is an example of a full drive simulated by the application:
+A host-and-player system for running social-deduction games across an Electron desktop app and an Expo / React Native companion.
 
-<p align="center">
-  <img src="icons/output-onlinegiftools-3.gif" alt="Description" width="600">
-</p>
+- Separates private host state from the public room display while keeping players synchronized through short codes and QR onboarding.
+- Uses a pure TypeScript rules engine, shared domain packages, and unit-tested state transitions for nominations, voting, and role actions.
 
-<!-- Repeat for more projects -->
+*Private development; product demo available on request.*
+
+---
+
+### 04 — Multi-Agent Self-Play Lab
+
+`RESEARCH BUILD` · `REINFORCEMENT LEARNING` · `EVALUATION`
+
+A multi-agent reinforcement-learning environment for imperfect-information games, built around self-play and measurable training behavior.
+
+- Combines MAPPO, population-based league play, and auxiliary belief modeling to study strategy under hidden information.
+- Includes 137 automated tests plus a live Flask dashboard for training metrics, checkpoints, and replay inspection.
+
+*Private research code; methodology walkthrough available on request.*
+
+## Engineering principles
+
+- **Start with the system.** Make data flow, failure states, and trust boundaries explicit before polishing the surface.
+- **Design for proof.** Pair features with tests, observable behavior, and metrics that make quality visible.
+- **Ship the whole experience.** Treat installation, loading states, copy, and edge cases as part of the product—not cleanup work.
+
+## Core toolkit
+
+`TypeScript` · `Python` · `C#` · `React` · `React Native` · `Node.js` · `.NET` · `Electron` · `AWS` · `Azure` · `Supabase` · `PyTorch` · `TensorFlow`
+
+---
+
+Based in Omaha, Nebraska. If you are building a product where polished UX has to meet complex systems, [send me an email](mailto:noltechas@yahoo.com).
