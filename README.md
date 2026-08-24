@@ -21,7 +21,7 @@ I build end-to-end software across web, mobile, desktop, and cloud. I hold an M.
 
 ### 01 — Dynasty+
 
-`CURRENT BUILD` · `DESKTOP SYSTEMS` · `APPLIED AI`
+*Current build · Desktop systems · Applied AI*
 
 An Electron, React, Flask, and Python companion platform that turns complex game-save data into an interactive management experience.
 
@@ -34,7 +34,7 @@ An Electron, React, Flask, and Python companion platform that turns complex game
 
 ### 02 — [College Football Forecasting System](https://github.com/noltechas/CapstoneFPI)
 
-`GRADUATE CAPSTONE` · `MACHINE LEARNING` · `DATA ENGINEERING`
+*Graduate capstone · Machine learning · Data engineering*
 
 A deep-learning pipeline for predicting college-football winners, win probabilities, and final scores from historical game data.
 
@@ -45,7 +45,7 @@ A deep-learning pipeline for predicting college-football winners, win probabilit
 
 ### 03 — Realtime Tabletop Operations
 
-`CURRENT BUILD` · `CROSS-PLATFORM` · `REALTIME UX`
+*Current build · Cross-platform · Realtime UX*
 
 A host-and-player system for running social-deduction games across an Electron desktop app and an Expo / React Native companion.
 
@@ -58,7 +58,7 @@ A host-and-player system for running social-deduction games across an Electron d
 
 ### 04 — Multi-Agent Self-Play Lab
 
-`RESEARCH BUILD` · `REINFORCEMENT LEARNING` · `EVALUATION`
+*Research build · Reinforcement learning · Evaluation*
 
 A multi-agent reinforcement-learning environment for imperfect-information games, built around self-play and measurable training behavior.
 
@@ -66,12 +66,6 @@ A multi-agent reinforcement-learning environment for imperfect-information games
 - Includes 137 automated tests plus a live Flask dashboard for training metrics, checkpoints, and replay inspection.
 
 *Private research code; methodology walkthrough available on request.*
-
-## Engineering principles
-
-- **Start with the system.** Make data flow, failure states, and trust boundaries explicit before polishing the surface.
-- **Design for proof.** Pair features with tests, observable behavior, and metrics that make quality visible.
-- **Ship the whole experience.** Treat installation, loading states, copy, and edge cases as part of the product—not cleanup work.
 
 ## Core toolkit
 
