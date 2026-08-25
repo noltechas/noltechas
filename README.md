@@ -57,7 +57,9 @@ A cross platform karaoke platform built as an Electron desktop experience and a 
 A two part companion system with an Electron Storyteller host, a public room display, and an Expo React Native player app.
 
 <p align="center">
-  <img src="./assets/clocktower-screenshot.png" alt="Blood on the Clocktower Grimoire lobby with game creation and join controls" width="100%">
+  <img src="./assets/botc-lobby.png" alt="Blood on the Clocktower Storyteller lobby with QR joining and player management" width="31%">
+  <img src="./assets/botc-grimoire.png" alt="Blood on the Clocktower Storyteller grimoire during the first night" width="31%">
+  <img src="./assets/botc-fortune-teller.png" alt="Blood on the Clocktower Fortune Teller night action on iOS" width="31%">
 </p>
 
 - Separates private Storyteller state from the public display while players join through short codes or QR onboarding.
