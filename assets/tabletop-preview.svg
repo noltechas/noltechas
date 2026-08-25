@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">Reserved application preview for Realtime Tabletop Operations</title>
+  <desc id="desc">A dark editorial frame reserved for a future Realtime Tabletop Operations application screenshot.</desc>
+  <rect width="1280" height="440" rx="16" fill="#17131b"/>
+  <rect x="1" y="1" width="1278" height="438" rx="15" fill="none" stroke="#3d3445"/>
+  <rect x="48" y="48" width="290" height="344" rx="10" fill="#120f16" stroke="#46394f"/>
+  <text x="80" y="105" fill="#d8b45b" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700" letter-spacing="3">APPLICATION 03</text>
+  <text x="78" y="168" fill="#faf7f2" font-family="Inter, ui-sans-serif, system-ui" font-size="38" font-weight="750">Realtime</text>
+  <text x="78" y="213" fill="#faf7f2" font-family="Inter, ui-sans-serif, system-ui" font-size="38" font-weight="750">Tabletop</text>
+  <text x="80" y="272" fill="#a99daf" font-family="Inter, ui-sans-serif, system-ui" font-size="17">Cross platform</text>
+  <text x="80" y="305" fill="#a99daf" font-family="Inter, ui-sans-serif, system-ui" font-size="17">Realtime UX</text>
+  <rect x="378" y="48" width="854" height="344" rx="10" fill="#0d0b10" stroke="#594966" stroke-dasharray="10 10"/>
+  <text x="805" y="211" fill="#ded6e4" font-family="Inter, ui-sans-serif, system-ui" font-size="19" font-weight="650" text-anchor="middle" letter-spacing="2">APPLICATION SCREENSHOT</text>
+  <text x="805" y="246" fill="#766a7d" font-family="Inter, ui-sans-serif, system-ui" font-size="15" text-anchor="middle">Reserved for the latest product view</text>
+</svg>
