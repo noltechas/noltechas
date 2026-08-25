@@ -17,24 +17,7 @@ I build complete software products across web, mobile, desktop, and cloud. I hol
 
 ## Selected work
 
-### 01 / Dynasty+
-
-*Current build · Desktop systems · Applied AI*
-
-An Electron, React, Flask, and Python companion platform that turns complex game save data into an interactive management experience.
-
-<p align="center">
-  <img src="./assets/dynasty-plus-preview.svg" alt="Reserved application screenshot area for Dynasty Plus" width="100%">
-</p>
-
-- Reads reverse engineered save formats and handles unavailable local data without breaking the core experience.
-- Packages two product editions from one codebase with persistent narrative memory, deterministic caching, and modular LLM features.
-
-*Private development. Architecture walkthrough available on request.*
-
----
-
-### 02 / [College Football Forecasting System](https://github.com/noltechas/CapstoneFPI)
+### 01 / [CFB Predictor](https://github.com/noltechas/CapstoneFPI)
 
 *Graduate capstone · Machine learning · Data engineering*
 
@@ -50,41 +33,56 @@ A deep learning pipeline for predicting college football winners, win probabilit
 
 ---
 
-### 03 / Realtime Tabletop Operations
+### 02 / [Realtime Karaoke](https://github.com/noltechas/Realtime)
 
-*Current build · Cross platform · Realtime UX*
+*Shipped product · Desktop and mobile · Realtime systems*
 
-A host and player system for running social deduction games across an Electron desktop app and an Expo React Native companion.
+A cross platform karaoke platform built as an Electron desktop experience and a React Native iOS companion, with shared TypeScript packages and synchronized room state.
 
 <p align="center">
-  <img src="./assets/tabletop-preview.svg" alt="Reserved application screenshot area for Realtime Tabletop Operations" width="100%">
+  <img src="./assets/realtime-karaoke-preview.svg" alt="Reserved application screenshot area for Realtime Karaoke" width="100%">
 </p>
 
-- Separates private host state from the public room display while synchronizing players through short codes and QR onboarding.
-- Uses a pure TypeScript rules engine, shared domain packages, and tested state transitions for nominations, voting, and role actions.
+- Connects the desktop host and mobile guests through Supabase for room state, queue management, and synchronized interactions.
+- Combines Spotify integration and Three.js visuals with a reusable monorepo architecture spanning desktop, mobile, and shared domain code.
+
+---
+
+### 03 / Blood on the Clocktower Companion
+
+*Current build · Desktop and mobile · Rules engine*
+
+A two part companion system with an Electron Storyteller host, a public room display, and an Expo React Native player app.
+
+<p align="center">
+  <img src="./assets/tabletop-preview.svg" alt="Reserved application screenshot area for the Blood on the Clocktower companion" width="100%">
+</p>
+
+- Separates private Storyteller state from the public display while players join through short codes or QR onboarding.
+- Uses a tested TypeScript rules engine to manage night order, role information, nominations, voting, reminders, and win detection while keeping the Storyteller in control.
 
 *Private development. Product demo available on request.*
 
 ---
 
-### 04 / Multi Agent Self Play Lab
+### 04 / Social Deduction ML
 
-*Research build · Reinforcement learning · Evaluation*
+*Research build · Multi agent reinforcement learning · Evaluation*
 
-A multi agent reinforcement learning environment for imperfect information games, built around self play and measurable training behavior.
+A reinforcement learning laboratory for training agents in imperfect information social deduction environments through self play and structured evaluation.
 
 <p align="center">
-  <img src="./assets/self-play-preview.svg" alt="Reserved dashboard screenshot area for Multi Agent Self Play Lab" width="100%">
+  <img src="./assets/self-play-preview.svg" alt="Reserved dashboard screenshot area for Social Deduction ML" width="100%">
 </p>
 
-- Combines MAPPO, population based league play, and auxiliary belief modeling to study strategy under hidden information.
+- Combines MAPPO, prioritized fictitious self play, and auxiliary belief modeling to study strategy under hidden information.
 - Includes 137 automated tests and a live Flask dashboard for training metrics, checkpoints, and replay inspection.
 
 *Private research code. Methodology walkthrough available on request.*
 
 ## Core toolkit
 
-`TypeScript` · `Python` · `C#` · `React` · `React Native` · `Node.js` · `.NET` · `Electron` · `AWS` · `Azure` · `Supabase` · `PyTorch` · `TensorFlow`
+`TypeScript` · `Python` · `React` · `React Native` · `Expo` · `Electron` · `Node.js` · `Flask` · `Supabase` · `PostgreSQL` · `Azure` · `PyTorch` · `TensorFlow`
 
 ---
 
