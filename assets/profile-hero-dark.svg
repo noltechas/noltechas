@@ -14,7 +14,12 @@
     <text x="72" y="228" fill="#b1bac4" font-size="20" font-weight="450">Full stack products  /  Applied AI  /  Cloud systems</text>
     <text x="72" y="278" fill="#8c959f" font-size="14" font-weight="600" letter-spacing="2.2">OMAHA, NEBRASKA</text>
 
-    <text x="1063" y="206" fill="none" stroke="#58a6ff" stroke-width="2" font-size="148" font-weight="760" text-anchor="middle" letter-spacing="-12">CN</text>
+    <text x="1018" y="206" fill="none" stroke="#58a6ff" stroke-width="2" font-size="148" font-weight="760" text-anchor="middle">C</text>
+    <g fill="none" stroke="#58a6ff" stroke-width="2">
+      <rect x="1069" y="102" width="25" height="104"/>
+      <rect x="1136" y="102" width="25" height="104"/>
+      <path d="M1094 107L1136 156M1094 152L1136 201"/>
+    </g>
     <text x="1063" y="253" fill="#8c959f" font-size="13" font-weight="650" text-anchor="middle" letter-spacing="2.4">WEB  /  MOBILE  /  DESKTOP</text>
   </g>
 </svg>
