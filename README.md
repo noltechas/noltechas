@@ -40,7 +40,9 @@ A deep learning pipeline for predicting college football winners, win probabilit
 A cross platform karaoke platform built as an Electron desktop experience and a React Native iOS companion, with shared TypeScript packages and synchronized room state.
 
 <p align="center">
-  <img src="./assets/realtime-karaoke-screenshot.png" alt="Realtime Karaoke host console with session and stage theme controls" width="100%">
+  <img src="./assets/realtime-karaoke-home.png" alt="Realtime Karaoke iOS home screen for joining a live session" width="31%">
+  <img src="./assets/realtime-karaoke-songs.png" alt="Realtime Karaoke iOS song browser with search and genre filters" width="31%">
+  <img src="./assets/realtime-karaoke-stage.png" alt="Realtime Karaoke iOS stage screen with playback and vocal controls" width="31%">
 </p>
 
 - Connects the desktop host and mobile guests through Supabase for room state, queue management, and synchronized interactions.
