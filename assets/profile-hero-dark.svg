@@ -14,7 +14,7 @@
     <text x="72" y="228" fill="#b1bac4" font-size="20" font-weight="450">Full stack products  /  Applied AI  /  Cloud systems</text>
     <text x="72" y="278" fill="#8c959f" font-size="14" font-weight="600" letter-spacing="2.2">OMAHA, NEBRASKA</text>
 
-    <text x="1063" y="204" fill="#58a6ff" font-size="142" font-weight="720" text-anchor="middle" letter-spacing="-8">CN</text>
+    <text x="1063" y="202" fill="#58a6ff" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="700" text-anchor="middle" letter-spacing="4">CN</text>
     <text x="1063" y="253" fill="#8c959f" font-size="13" font-weight="650" text-anchor="middle" letter-spacing="2.4">WEB  /  MOBILE  /  DESKTOP</text>
   </g>
 </svg>

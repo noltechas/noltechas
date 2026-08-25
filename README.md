@@ -40,7 +40,7 @@ A deep learning pipeline for predicting college football winners, win probabilit
 A cross platform karaoke platform built as an Electron desktop experience and a React Native iOS companion, with shared TypeScript packages and synchronized room state.
 
 <p align="center">
-  <img src="./assets/realtime-karaoke-preview.svg" alt="Reserved application screenshot area for Realtime Karaoke" width="100%">
+  <img src="./assets/realtime-karaoke-screenshot.png" alt="Realtime Karaoke host console with session and stage theme controls" width="100%">
 </p>
 
 - Connects the desktop host and mobile guests through Supabase for room state, queue management, and synchronized interactions.
@@ -55,7 +55,7 @@ A cross platform karaoke platform built as an Electron desktop experience and a 
 A two part companion system with an Electron Storyteller host, a public room display, and an Expo React Native player app.
 
 <p align="center">
-  <img src="./assets/tabletop-preview.svg" alt="Reserved application screenshot area for the Blood on the Clocktower companion" width="100%">
+  <img src="./assets/clocktower-screenshot.png" alt="Blood on the Clocktower Grimoire lobby with game creation and join controls" width="100%">
 </p>
 
 - Separates private Storyteller state from the public display while players join through short codes or QR onboarding.
@@ -72,7 +72,7 @@ A two part companion system with an Electron Storyteller host, a public room dis
 A reinforcement learning laboratory for training agents in imperfect information social deduction environments through self play and structured evaluation.
 
 <p align="center">
-  <img src="./assets/self-play-preview.svg" alt="Reserved dashboard screenshot area for Social Deduction ML" width="100%">
+  <img src="./assets/social-deduction-ml-screenshot.png" alt="Social Deduction ML training dashboard with model controls and evaluation charts" width="100%">
 </p>
 
 - Combines MAPPO, prioritized fictitious self play, and auxiliary belief modeling to study strategy under hidden information.
